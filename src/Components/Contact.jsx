@@ -32,22 +32,22 @@ const Contact = () => {
           />
           <VStack m="auto" spacing={0} data-aos="zoom-in-up" data-aos-delay="100">
             <HStack spacing={4} data-aos="fade-up">
-              <Link href="https://www.linkedin.com/in/deep-shikha-338a051a6/" bgColor="blue" p={2} pl={4} 
+              <Link href="https://www.linkedin.com/in/deep-shikha-338a051a6/" bgColor="blue" p={2} pl={4} id="contact-linkedin"
               pr={4} borderRadius={10} fontSize='xl' fontWeight="bold">
               <FontAwesomeIcon icon={faLinkedin} size="l" /> Linkedin
               </Link>
                 
-              <Link href="https://github.com/Deep-06" bgColor="gray" p={2} pl={4} 
+              <Link href="https://github.com/Deep-06" bgColor="gray" p={2} pl={4} id="contact-github"
               pr={4} borderRadius={10} fontSize='xl' fontWeight="bold">
               <FontAwesomeIcon icon={faGithub} size="l" /> GitHub
               </Link>
 
-              <Link href="mailto:shikhadeep.hzp@gmail.com" bgColor="red.500" p={2} pl={4} 
+              <Link href="mailto:shikhadeep.hzp@gmail.com" bgColor="red.500" p={2} pl={4} id="contact-email"
               pr={4} borderRadius={10} fontSize='xl' fontWeight="bold">
                <EmailIcon boxSize={7} /> Email
               </Link>
 
-              <Link href="mailto:shikhadeep.hzp@gmail.com" bgColor="green" p={2} pl={4} 
+              <Link href="mailto:shikhadeep.hzp@gmail.com" bgColor="green" p={2} pl={4} id="contact-phone"
               pr={4} borderRadius={10}>
               <PhoneIcon boxSize={7} />
               </Link>
