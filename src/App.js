@@ -1,10 +1,14 @@
 import './App.css';
-import Home from './Components/Home';
+import { AllRoutes } from './Components/AllRoutes';
+//import Home from './Components/Home';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor:"#0F1624"}}>
-      <Home/>
+    <div className="App" style={{backgroundColor:"lightblue"}}>
+    <Navbar/> 
+     <AllRoutes/>
+    {/* <Home/> */}
     </div>
   );
 }
